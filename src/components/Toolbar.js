@@ -18,9 +18,9 @@ export default function Toolbar(props) {
 
             <li className="Contact_li" onClick={props.clicked}>
               <FontAwesomeIcon icon="envelope"  /></li>
-            <li><a href="https://github.com/cyberpunk1971" target="_blank">Github</a></li>
-            <li><Link to="/About" className="abt-link">About</Link></li>
-            <li><Link to="/" className="abt-link">Home</Link></li>
+            <li><a href="https://github.com/cyberpunk1971" className="Contact_li" target="_blank">Github</a></li>
+            <li><Link to="/About" className="Contact_li">About</Link></li>
+            <li><Link to="/" className="Contact_li">Home</Link></li>
 
           </ul>
         </div>

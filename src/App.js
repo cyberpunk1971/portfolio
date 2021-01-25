@@ -61,7 +61,7 @@ export class App extends Component {
 
       <div style={{ height: "100%" }}>
         <Toolbar drawerClickHandler={this.clickHandler} clicked={this.modalClickHandler} />
-        <Sidedrawer show={this.state.sideDrawerOpen}/>
+        <Sidedrawer show={this.state.sideDrawerOpen} clicked={this.modalClickHandler}/>
         {backdrop}
         <Modal show={this.state.modalOpen} clicked={this.modalClickHandler}>
           <ContactForm />

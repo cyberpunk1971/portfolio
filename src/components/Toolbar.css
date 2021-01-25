@@ -2,6 +2,7 @@
   color: white;
   cursor: pointer;
   padding-bottom: 3px;
+  font-size: 1.5rem;
 }
 
 .Contact_li:hover {
@@ -13,7 +14,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  background-color: rgb(139, 60, 60);
+  background-color: rgb(151, 0, 0);
   height: 56px;
 }
 
@@ -58,6 +59,7 @@
 
 .icon a:hover {
   color: black;
+  
 }
 
 .space {

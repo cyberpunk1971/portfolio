@@ -1,0 +1,19 @@
+.about {
+  display: flex;
+  text-align: center;
+  font-size: 1rem;
+  margin-top: 0;
+}
+
+.about-link {
+  color: rgb(139, 60, 60);
+  font-size: 1.5rem
+}
+
+@media (max-width: 500px) {
+  .Blurb {
+    font-size: 16px;
+    padding: 0 20px;
+    margin-bottom: 0;
+  }
+}

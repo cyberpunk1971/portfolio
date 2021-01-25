@@ -1,0 +1,11 @@
+.footer {
+  background-color: rgb(139, 60, 60);
+  display: flex;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  justify-content: space-around;
+  width: 100%;
+  height: 25px;
+  align-items: center;
+}

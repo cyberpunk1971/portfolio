@@ -10,7 +10,7 @@ export default function Portfolio() {
 
         <div className="container">
           <div className="image">
-            <a target="_blank" rel="noopener noreferrer" href="https://cyberpunk1971.github.io/Big-Eatz/">
+            <a target="_blank" rel="noopener noreferrer" href="https://upbeat-brattain-d0b780.netlify.app/">
               <img src={process.env.PUBLIC_URL + "./images/image5.png"} alt="big eats website" width="600" height="400" /></a>
             <div className="description">Patient Monitor. A web application built with the MERN stack of technologies.</div>
           </div>
